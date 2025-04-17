@@ -1,0 +1,36 @@
+html -> hypertext markup language
+css  -> cascading style sheets
+js   -> Javascript
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Practice</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+
+heading tags (6 variations) -> h1...h6
+br -> break
+hr -> horizontal ruler
+p  -> paragraph
+ul -> unordered list
+ol -> ordered list
+li -> list item
+a  -> anchor
+img -> image
+link -> to link css
+script -> to link js
+
+styling -> internal(index.html, head->style), inline(tag), external(style.css)
+scripting -> internal(index.html, body->script), inline(tag), external(script.css)
+======================================================================
+
+
+class -> can use for multiple tags -> .
+id    -> unique                    -> #
