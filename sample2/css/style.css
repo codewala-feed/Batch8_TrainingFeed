@@ -1,0 +1,48 @@
+.first{
+    float: left;
+    width: 50%;
+    background-color: red;
+    color: aliceblue;
+}
+
+.first h1{
+    text-align: center;
+}
+
+.second{
+    float: left;
+    width: 50%;
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+.second h1{
+    color: chocolate;
+}
+
+.second p{
+    color: blue;
+}
+
+.parent{
+    float: left;
+    width: 100%;
+    background-color: black;
+    text-transform: uppercase;
+}
+
+.left{
+    float: left;
+    width: 33%;
+    background-color: white;
+    text-align: center;
+    border: 10px solid black;
+}
+
+.right{
+    float: right;
+    width: 33%;
+    background-color: white;
+    text-align: center;
+    border: 10px solid black;
+}
