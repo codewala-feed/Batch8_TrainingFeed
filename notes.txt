@@ -34,3 +34,11 @@ scripting -> internal(index.html, body->script), inline(tag), external(script.cs
 
 class -> can use for multiple tags -> .
 id    -> unique                    -> #
+
+============================================================
+margin  -> outside the box
+padding -> inside the box
+trbl -> top, right, bottom, left
+font-size -> px 
+
+
