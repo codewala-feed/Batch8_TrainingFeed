@@ -65,3 +65,45 @@
     color: black;
     font-weight: 700;
 }
+
+.task{
+    float: left;
+    width: 24.75%;
+    background-color: brown;
+    border: 2px solid black;
+    text-align: center;
+    margin: 2% 0% 0% 0%;
+}
+
+.task2-1, .task2-2{
+    float: left;
+    width: 35%;
+    background-color: antiquewhite;
+    border: 4px solid black;
+    text-align: center;
+}
+
+.task2-1{
+    margin: 5% 4.5% 15% 10%;
+    padding: 3% 0% 3% 0%;
+}
+
+.task2-2{
+    margin: 5% 0% 15% 4.5%;
+    padding: 3% 0% 3% 0%;
+}
+
+.task3{
+    float: left;
+    width: 100%;
+    margin: 0% 0% 20% 0%;
+    text-align: center;
+}
+
+.task3-sub{
+    float: left;
+    width: 30%;
+    background-color: orange;
+    border: 1px solid black;
+    margin: 0% 1.5% 0% 1.5%;
+}
