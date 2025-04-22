@@ -153,3 +153,50 @@
     text-align: center;
     border: 4px solid black;
 }
+
+.violet-div{
+    float: left;
+    width: 100%;
+    background-color: rgb(133, 86, 176);
+    border: 4px solid black;
+    margin: 0% 0% 15% 0%;
+}
+
+.blue-div{
+    float: left;
+    width: 46.5%;
+    background-color: skyblue;
+    margin: 2% 0% 2% 2%;
+    border: 4px solid black;
+}
+
+.yellow-div{
+    float: left;
+    width: 46.5%;
+    background-color: yellow;
+    margin: 2% 0% 2% 2%;
+    padding: 5% 0% 5% 0%;
+    border: 4px solid black;
+    text-align: center;
+}
+
+
+.task6{
+    float: left;
+    width: 50%;
+    background-color: red;
+    margin: 0% 25% 15% 25%;
+    padding: 5%;
+}
+
+.task6-sub{
+    float: left;
+    width: 45%;
+    border: 4px solid aliceblue;
+    text-align: center;
+    margin: 0% 0% 0% 2%;
+    border-radius: 10%;
+    padding: 3% 0% 3% 0%;
+    color: aliceblue;
+    box-shadow: 10px 10px 30px black;
+}
