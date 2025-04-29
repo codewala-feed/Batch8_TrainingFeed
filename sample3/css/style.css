@@ -1,0 +1,28 @@
+.navdiv{
+    float: left;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+.navdiv li{
+    display: inline;
+    color: aliceblue;
+    margin: 0% 7% 0% 7%;
+    font-size: 30px;
+    font-weight: 900;
+    box-shadow: 5px 5px 30px aliceblue;
+}
+
+.content-div{
+    float: left;
+    width: 50%;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 20% 0% 0% 25%;
+}
+
+.navdiv a{
+    color: aliceblue;
+    text-decoration: none;
+}
