@@ -174,15 +174,57 @@
 
     <div style="clear: both;"></div>
 
-    <div class="fm">
-        <h1>Register Form</h1>
-        <form action="" method="post">
-            <input type="text" placeholder="Enter Name" name="u_name">
-            <input type="number" placeholder="Enter Phone" name="u_phone">
-            <input type="email" placeholder="Enter Email" name="u_mail">
-            <button type="submit">Submit</button>
-        </form>
+    <div class="form-div">
+        <div class="reg">
+            <h1>Register Form</h1>
+            <form action="" method="post">
+                <input type="text" placeholder="Enter Name" name="u_name" required>
+                <input type="number" placeholder="Enter Phone" name="u_phone" minlength="10" maxlength="10" required>
+                <input type="email" placeholder="Enter Email" name="u_mail" required>
+                <input type="password" placeholder="Create Password" name="u_password" minlength="8" required>
+                <textarea name="u_address" placeholder="Enter Address" required></textarea>
+    
+                <select name="course" required>
+                    <option value="" disabled selected>Select Course</option>
+                    <option value="cse">Computer Science</option>
+                    <option value="ece">Electronics</option>
+                    <option value="civil">Civil Engineer</option>
+                </select>
+    
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    
+        <div class="log">
+            <h1>Login Form</h1>
+            <form action="">
+                <input type="email" placeholder="Enter Email:" name="u_mail" required>
+                <input type="password" placeholder="Enter Password" name="u_password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
     </div>
+
+    <!-- <div class="simple">
+        <label for="u_mail">Email:</label>
+        <input type="email" placeholder="Enter Email" name="u_mail" required>
+        <br>
+        <label for="u_password">Password:</label>
+        <input type="password" placeholder="Enter Password" name="u_password" required>
+        <br>
+
+        <label for="male">Male:</label>
+        <input type="radio" name="gender" id="male">
+
+        <br>
+
+        <label for="female">Female:</label>
+        <input type="radio" name="gender" id="female">
+
+        <br>
+
+        <button type="submit">Login</button>
+    </div> -->
 
     <script src="./js/script.js"></script>
 </body>
