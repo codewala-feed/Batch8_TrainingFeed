@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sample5</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="one-div">
+        <button onclick="alert('mouse left button clicked')">l click</button>
+        <button ondblclick="alert('mouse double clicked')">d click</button>
+        <button oncontextmenu="alert('mouse right clicked')">r click3</button>
+    </div>
+
+    <div class="two-div" onmouseenter="alert('Mouse Enters')">
+        <button>click1</button>
+        <button>click2</button>
+        <button>click3</button>
+    </div>
+
+    <div class="three-div">
+        <button id="tb1" onmousedown="pressed()" onmouseup="released()">click1</button>
+        <button id="tb2">click2</button>
+        <button id="tb3">click3</button>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
