@@ -42,3 +42,140 @@ trbl -> top, right, bottom, left
 font-size -> px 
 
 
+============================================================
+to run the code, type the below command in terminal
+        node <filename.js>
+
+frontend --> client-side
+backend  --> server-side
+============================================================
+
+onclick          -> triggers when clicks mouse left button 
+ondblclick	 -> triggers when double clicks mouse button
+oncontextmenu 	 -> triggers when clicks mouse right button
+onmouseenter     -> triggers when mouse enters on the element(parent)
+onmouseover 	 -> triggers when mouse enters on the element(parent) or it's children
+onmousedown	 -> triggers when mouse button pressed down(hold)
+onmouseup	 -> triggers when mouse pressed button released
+
+
+CSS:
+box-shadow: 10px 10px 10px black;
+font-size: 20px;
+background-color: "red";
+
+JS:
+style.boxShadow = "10px 10px 10px black";
+style.fontSize = "20px";
+style.backgroundColor = "red";
+
+============================================================
+
+# variables
+var 	-> can redeclare
+let 	-> can redeclare & block scoped
+const 	-> cannot redeclare
+
+var city = "ongole"
+city = "hyderbad"
+
+let n1 = "589"
+let n2 = 589
+
+console.log(n1 == n2) //loose equality(checks content)
+console.log(n1 === n2) //strict equality(checks content and data type)
+
+# data types
+let city = "ongole"
+let age = 102
+let isOnline = true
+let salary = 12324.324
+let numbers = [1, 2, 4, 5, 'priya', 'akhil', 103]
+let user = {"name": "priya", course: "html", age:21}
+============================================================
+
+let fruits = []
+fruits.push("orange")
+fruits.push("papaya")
+fruits.push("dragon")
+fruits.push("kiwi")
+
+fruits.pop() // last element
+fruits.splice(0, 1) // removes 1 element from 0 index
+console.log(fruits)
+console.log(fruits.length)
+============================================================
+
+let data = {}
+data.name = "priya"
+data.age = 21
+
+delete data.name
+console.log(data)
+============================================================
+
+function -> to reuse block of code
+            executes only when it is called
+
+function wish(user){
+    console.log(`Hello ${user}, Happy Coding :)`);
+}
+
+wish('priya')
+wish('akhil')
+wish('varsha')
+wish('nikhil')
+wish('ntr')
+wish('cbn')
+
+function enrollMsg(user, course){
+    console.log(`Hello ${user}, You have enrolled in ${course}`);
+}
+
+enrollMsg('priya', 'frontend');
+enrollMsg('akhil', 'python');
+enrollMsg('nikhil', 'sql');
+
+function enrollMsg(user, course){
+    return `Hello ${user}, You have enrolled in ${course}`;
+}
+
+console.log(enrollMsg('priya', 'frontend'));
+console.log(enrollMsg('akhil', 'python'));
+console.log(enrollMsg('nikhil', 'sql'));
+============================================================
+
+conditional -> executes based on conditions
+
+let age = -20;
+
+if (age >= 18){
+    console.log("You are eligible to vote");
+}
+else if(age <= 0){
+    console.log("Invalid Age");
+}
+else{
+    console.log("You are not eligible to vote");
+}
+============================================================
+
+loops -> to repeat block of code n times
+         to generate sequence of numbers
+         to traverse elements
+
+//to repeat block of code n times
+for (let i=1; i<=10; i++){
+    console.log("Hey Priya, Happy Coding :)");
+}
+
+//to generate sequence of numbers
+for (let z=0; z<6; z++){
+    console.log(z);
+}
+
+//to traverse elements
+let fruits = ["orange", "dragon", "kiwi", "custard"];
+for (let f=0; f<fruits.length; f++){
+    console.log(fruits[f]);
+}
