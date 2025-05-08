@@ -1,4 +1,6 @@
 let fruits = ["orange", "dragon", "kiwi", "custard"];
-for (let f=0; f<fruits.length; f++){
-    console.log(fruits[f]);
+let i = 25
+while (i < 30){
+    console.log(fruits);
+    i++
 }

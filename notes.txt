@@ -168,14 +168,61 @@ loops -> to repeat block of code n times
 for (let i=1; i<=10; i++){
     console.log("Hey Priya, Happy Coding :)");
 }
+let fruits = ["orange", "dragon", "kiwi", "custard"];
+let i = 25
+while (i < 30){
+    console.log(fruits);
+    i++
+}
+
 
 //to generate sequence of numbers
 for (let z=0; z<6; z++){
     console.log(z);
+}
+n = 0
+while (n <= 5){
+    console.log(n);
+    n++
+}
+
+let n = 31
+while (n >= 21){
+    console.log(n);
+    n--
 }
 
 //to traverse elements
 let fruits = ["orange", "dragon", "kiwi", "custard"];
 for (let f=0; f<fruits.length; f++){
     console.log(fruits[f]);
+}
+
+let f = 0
+while (f < fruits.length){
+    console.log(fruits[f])
+    f++
+}
+
+let fruits = ["orange", "dragon", "kiwi", "custard"];
+
+let f = fruits.length - 1
+while (f >= 0){
+    console.log(fruits[f])
+    f--
+}
+
+
+============================
+
+//for in loop
+let fruits = ["orange", "dragon", "kiwi", "custard"];
+
+for (let f in fruits){
+    console.log(fruits[f]);
+}
+
+//for of loop
+for (let k of fruits){
+    console.log(k);
 }
