@@ -138,3 +138,89 @@
     float: left;
     width: 25%;
 }
+
+.info-div{
+    float: left;
+    width: 100%;
+    background-color: #262626ff;
+    color: rgb(137, 130, 130);
+    padding: 5% 0% 4% 0%;
+}
+
+.info-sub{
+    float: left;
+    width: 33%;
+    margin: 0% 0% 0% 0%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.info-sub h4{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.message-div{
+    float: left;
+    width: 100%;
+    background-color: #262626ff;
+    color: rgb(137, 130, 130);
+    padding: 5% 0% 3% 0%;
+}
+
+.message-sub{
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin: 0% 0% 0% 25%;
+}
+
+.message-sub h4{
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.message-sub input{
+    float: left;
+    width: 45%;
+    background-color: rgba(75, 72, 72, 0.885);
+    padding: 1% 0% 1% 1%;
+    margin: 0% 0% 0% 3%;
+    border: none;
+    font-size: 17px;
+}
+
+.message-sub textarea{
+    float: left;
+    width: 94.3%;
+    margin: 3% 0% 3% 3%;
+    padding: 0% 0% 7% 0%;
+    background-color: rgba(75, 72, 72, 0.885);
+    border: none;
+    font-size: 17px;
+    padding: 0% 0% 0% 1%;
+}
+
+.message-sub button{
+    float: left;
+    width: 20%;
+    font-size: 17px;
+    margin: 0% 0% 0% 40%;
+    background-color: transparent;
+    color: rgb(137, 130, 130);
+    padding: 1% 0% 1% 0%;
+    border: 3px solid rgb(137, 130, 130);
+}
+
+.message-sub h4{
+    margin: 0% 0% 10% 0%;
+}
+
+.footer-div{
+    float: left;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+}
